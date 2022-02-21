@@ -20,6 +20,7 @@
     border-radius: 20px;
     box-shadow: inset 0px 0px 13px 4px #2bff00,
         0px 0px 20px 4px #2bff00;
+    text-align: center;
 }
 
 span {
@@ -28,6 +29,7 @@ span {
     font-weight: 700;
     color: #2bff00d9;
     cursor: pointer;
+    text-align: center;
 }
 
 .time:hover {
@@ -41,4 +43,52 @@ span {
 
 body {
     background-color: black;
+}
+
+@media screen and (max-width: 500px) {
+    span {
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    span {
+        font-size: 4.5em;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    span {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    span {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    span {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 185px) {
+    span {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 125px) {
+    span {
+        font-size: .7em;
+    }
+}
+
+@media screen and (max-width: 110px) {
+    span {
+        display: none;
+    }
 }
